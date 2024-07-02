@@ -5,44 +5,86 @@
 :toc-title: Table of Contents
 :source-highlighter: prettify
 
-Jung Min Lee <jungmin2056@gmail.com>
 
-v1.0.0, 2022.07.10
+
+v1.0.0, 2024.07.02
 
 ***
 == MemberController
-=== 회원 등록
+=== 회원 정보 조회
 .curl-request
-include::{snippets}/post-member/curl-request.adoc[]
+include::{snippets}/get-member/curl-request.adoc[]
 
 .http-request
-include::{snippets}/post-member/http-request.adoc[]
+include::{snippets}/get-member/http-request.adoc[]
 
-.request-fields
-include::{snippets}/post-member/request-fields.adoc[]
-
-.http-response
-include::{snippets}/post-member/http-response.adoc[]
-
-.response-headers
-include::{snippets}/post-member/response-headers.adoc[]
-
-
-=== 회원 정보 수정
-.curl-request
-include::{snippets}/patch-member/curl-request.adoc[]
-
-.http-request
-include::{snippets}/patch-member/http-request.adoc[]
+.httpie-request
+include::{snippets}/get-member/httpie-request.adoc[]
 
 .path-parameters
-include::{snippets}/patch-member/path-parameters.adoc[]
+include::{snippets}/get-member/path-parameters.adoc[]
 
-.request-fields
-include::{snippets}/patch-member/request-fields.adoc[]
+.request-body
+include::{snippets}/get-member/request-body.adoc[]
+
+.response-body
+include::{snippets}/get-member/response-body.adoc[]
 
 .http-response
-include::{snippets}/patch-member/http-response.adoc[]
+include::{snippets}/get-member/http-response.adoc[]
 
 .response-fields
-include::{snippets}/patch-member/response-fields.adoc[]
+include::{snippets}/get-member/response-fields.adoc[]
+
+=== 회원 정보 페이지 조회
+.curl-request
+include::{snippets}/get-members/curl-request.adoc[]
+
+.http-request
+include::{snippets}/get-members/http-request.adoc[]
+
+.httpie-request
+include::{snippets}/get-members/httpie-request.adoc[]
+
+.request-parameters
+include::{snippets}/get-members/request-parameters.adoc[]
+
+.request-body
+include::{snippets}/get-members/request-body.adoc[]
+
+.http-response
+include::{snippets}/get-members/http-response.adoc[]
+
+.response-fields
+include::{snippets}/get-members/response-fields.adoc[]
+
+.response-body
+include::{snippets}/get-members/response-body.adoc[]
+
+
+=== 회원 정보 삭제
+.curl-request
+include::{snippets}/delete-member/curl-request.adoc[]
+
+.http-request
+include::{snippets}/delete-member/http-request.adoc[]
+
+.httpie-request
+include::{snippets}/delete-member/httpie-request.adoc[]
+
+.request-body
+include::{snippets}/delete-member/request-body.adoc[]
+
+.path-parameters
+include::{snippets}/delete-member/path-parameters.adoc[]
+
+.http-response
+include::{snippets}/delete-member/http-response.adoc[]
+
+.response-body
+include::{snippets}/delete-member/response-body.adoc[]
+
+
+
+
+
